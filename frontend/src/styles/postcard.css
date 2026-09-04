@@ -1,0 +1,136 @@
+.post-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #4fc3f7, #2979ff);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.post-username {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #65676b;
+}
+
+.post-text {
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+  white-space: pre-wrap;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.post-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #65676b;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-stats-comments {
+  cursor: pointer;
+}
+
+.post-actions {
+  display: flex;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.post-action-btn {
+  flex: 1;
+  background: #f0f2f5;
+  border: none;
+  border-radius: 999px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+}
+
+.post-action-btn.liked {
+  background: #ffe4e6;
+  color: #e63950;
+}
+
+.post-comments {
+  margin-top: 12px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.post-comment {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.post-comment-username {
+  font-weight: 700;
+}
+
+.post-comment-form {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.post-comment-input {
+  flex: 1;
+  border: 1px solid #dcdfe3;
+  background: #f5f6f7;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 14px;
+  outline: none;
+}
+
+.post-comment-input:focus {
+  background: #fff;
+  border-color: #2979ff;
+}
+
+.post-comment-submit {
+  background: #2979ff;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.post-comment-submit:disabled {
+  background: #b7c8f5;
+}
