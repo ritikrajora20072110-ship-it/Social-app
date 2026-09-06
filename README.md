@@ -3,7 +3,7 @@
 A full-stack MERN app for creating accounts, posting text/images, and liking/commenting on posts — inspired by the TaskPlanet Social page.
 
 ## Tech Stack
-- Frontend: React.js (plain CSS only, no Tailwind)
+- Frontend: React.js (plain CSS only)
 - Backend: Node.js + Express
 - Database: MongoDB (images stored directly in the database as base64 strings)
 - Auth: JWT + bcrypt
