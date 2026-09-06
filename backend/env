@@ -1,0 +1,3 @@
+MONGO_URI=mongodb://localhost:27017/social-app
+JWT_SECRET=k3f9mQzP7xR2vLw8sTnB5yGcAeH4dJuY9zXq
+PORT=5000
